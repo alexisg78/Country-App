@@ -1,0 +1,9 @@
+{
+  "github.copilot.editor.enableAutoCompletions": false,
+  "mdb.useSampleDocsInCopilot": true,
+  "angular-schematics.schematicsDefaultOptions": {
+    "angular-*": {
+      "externalTemplate": true
+    }
+  }
+}
