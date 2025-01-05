@@ -1,27 +1,38 @@
-# CountryApp
+# CountryApp 🌎
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.7.
+Proyecto desarrollado en Angular, generado con [Angular CLI](https://github.com/angular/angular-cli) versión 18.2.7.
 
-## Development server
+## 📋 Funcionalidades
+Búsqueda de países:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+  - Por capital
+  - Por país
+  - Por región
+  
+## 🛠️ Conceptos utilizados
+Este proyecto incluye el uso de los siguientes conceptos y herramientas de Angular:
 
-## Code scaffolding
+- Rutas.
+- `RouterLink` y `RouterLinkActive`.
+- Componentes especializados.
+- `DebounceTime` y `SwitchMap` (reactive programming con RxJS).
+- Consumo de APIs RESTful.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🚀 Instalación y configuración
+Sigue los pasos a continuación para clonar e iniciar el proyecto en tu entorno local:
 
-## Build
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/alexisg78/Country-App.git
+   cd Country-App
+   
+2. Instalar dependecia del proyecto:
+   npm install
+   
+4. Ejecutar el proyecto en un servidor de desarrollo:
+   ng serve
+   
+6. Abrir en tu navegador la dirección:
+   http://localhost:4200/
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
