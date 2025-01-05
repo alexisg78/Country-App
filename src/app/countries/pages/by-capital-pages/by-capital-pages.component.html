@@ -7,7 +7,8 @@
     <shared-loading-spinner *ngIf="isLoading"></shared-loading-spinner>
     <shared-search-box
       (onDebounce)="searchByCapital($event)"
-      placeholder="Buscar por capital"></shared-search-box>
+      placeholder="Buscar por capital"
+      [initialValueSearch]="initialValue"></shared-search-box>
   </div>
 </div>
 
